@@ -1,0 +1,205 @@
+body {
+    background-color: #1f2937;
+    font-family:sans-serif
+}
+
+.logo{
+    width: 60%;
+        margin-bottom: 50px;
+    margin-left: 200px;
+    color: white;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.topclass{
+    display:flex
+}
+
+.lefttext > h1 {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: extra-bold;
+}
+
+.button {
+    background-color: #3882F5;
+    border: 1px solid black;
+    color: white;
+    padding: 12px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 19px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+  }
+.navigation {
+    display: inline-flex;
+    justify-content: space-around;
+    width: 40%;
+    margin-right: 200px;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.firstbox {
+    display:flex;
+    box-sizing: border-box;
+    margin: 200px;
+    margin-top: 9em;
+    color: white;
+}
+.lefttext{
+        width: 50%;
+    box-sizing: border-box;
+    padding: 4em;
+     
+}
+
+.rightbox {
+        display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center ;
+    text-align: center;
+    background-color: grey;
+    background-clip: content-box;
+    
+}   
+
+.fullsiteflex{
+    display:flex;
+    flex-flow: column wrap;
+
+}
+
+.secondbox{
+    background-color: white;
+    text-align: center;
+    padding: 3em;
+}
+
+.fourboxs {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 100px;
+    margin-bottom: 2em;
+
+
+}
+.boxes{
+    width: 170px;
+    height: 170px;
+    border: 2px solid #3882f6;
+    border-radius: 17px;
+}
+
+.subtextdiv{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 0em;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.subtexts {
+    width: 170px;
+    height: 170px;
+    
+}
+
+.thorquote p {
+    display: flex;
+    justify-content: flex-start;
+    font-weight: 1em;
+    text-align: left;
+    font-size: 48px;
+    font-style: italic;
+    
+}
+
+.thorname {
+    display: flex;
+    justify-content: flex-end;
+    font-weight: 900;
+    font-size: 30px;
+
+}
+
+.thorsection {
+    background-color: #e5e7eb;
+    padding: 130px 300px;
+}
+
+.calltoaction{
+
+    background-color: white;
+    padding: 130px 300px;
+    height: 200px;
+    
+}
+
+.calltoactionleft{
+    background-color: #3882F5;
+    border-radius: 20px;
+    text-align: left;
+    padding: 30px 200px;
+    color: white;
+    font-weight: bolder;
+}
+
+.button2 {
+    background-color: #3882F5;
+    border: 3px solid white;
+    color: white;
+    float: right;
+    padding: 12px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 19px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.footer {
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100px;
+}
+
+/* .signupbutton {
+    
+    border: 2px solid white;
+    background-color: #3882F5;
+    background-clip: content-box;
+    padding: 45px 20px;
+}  */
+
+/* .calltoactionbigblue {
+    margin: 200px;
+    background-color: #3882F5;
+    background-clip: content-box;
+    border: 2px solid #3882F5;
+} */
+/* .secondbox h1 {
+    text-align: center;
+    font-weight: 900;
+    padding: 1.3em;
+}
+.secondbox {
+    background-color: white;
+    height: 700px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+} */
